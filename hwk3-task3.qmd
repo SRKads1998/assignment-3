@@ -1,0 +1,19 @@
+---
+title: "Untitled"
+format: html
+---
+
+## EDS 232 HW 3 Task 3
+This document is to better understand how test error changes, and usually increases, as the number of predictors increases. 
+
+#### Concept to Clarify
+What does an increased test erro mean, and what does that look like in a real world model scenario?
+
+#### Prompt
+I'm reading up on Linear Model Selection and Regularization in a Machine Learning context. I am reading an excerpt from "An Introduction to Statistical Learning with applications in Python" and am trying to wrap my head around the following passage "Figure 6.24 highlights three important points: (1) regularization or shrinkage plays a key role in high-dimensional problems, (2) appropriate tuning parameter selection is crucial for good predictive performance, and (3) the test error tends to increase as the dimensionality of the problem (i.e. the number of features or predictors) increases, unless the additional features are truly associated with the response."
+
+ Specifically, I'm trying to understanding the third point. Would you be able to provide a real world example of what a worse test error looks like, as well as maybe an analogy of why a this is happening?
+
+#### Generative AI Reflection
+I used Claude, and found it to be quite helpful in clarifying test error, and how to interpret it in a real-world context. While I have understood that too many predictors can lead to overfitting as a result of the model getting over trainned, I never fully wrapped my head around what that would look like in an actual scenario where I was building and working with a model. I gave Claude the above prompt, and I found that its response in the first iteration to have done a solid job of explaining the concept with a real world example and analogy. And yes, the response did a great of explaining why tuning parameter selection is so important, and why regularization plays a key role in high-dimensional problems.
+
